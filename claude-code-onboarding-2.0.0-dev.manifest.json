@@ -1,0 +1,242 @@
+{
+  "files": [
+    {
+      "path": ".claude/skills/README.md",
+      "sha256": "0396f4394bab167231afb0c2c54166493d469edd592bab35ee84e30a58d2557f",
+      "size": 201
+    },
+    {
+      "path": ".claude/skills/refresh-materials/SKILL.md",
+      "sha256": "db16384354ff03adcb66569dac0f8cb7051525114268ce4ce3ba4bb334052d0b",
+      "size": 3913
+    },
+    {
+      "path": ".claude/skills/setup/SKILL.md",
+      "sha256": "35bdd86544b14e2f6e7813e392b37ebdd18fc2b148e229bdbcc0894a9061cffd",
+      "size": 6407
+    },
+    {
+      "path": ".claude/skills/setup/references/build-and-verify.md",
+      "sha256": "66ca8a89b2d218b1dce5babef88e3608d1ae052138bee8342db76cfeafda67a5",
+      "size": 3133
+    },
+    {
+      "path": ".claude/skills/setup/references/modules-runner.md",
+      "sha256": "6152d456ba83d73abb1dfd47997fdf7167ea1f6d8ab12c508974718cec5bb38e",
+      "size": 3504
+    },
+    {
+      "path": ".claude/skills/setup/references/safety-rules.md",
+      "sha256": "02e89018be7e4d1b2ec75d0d9a9d6961ae4dfac7db6be6a7952231c46ad88227",
+      "size": 3962
+    },
+    {
+      "path": ".claude/skills/setup/references/session-zero.md",
+      "sha256": "f8f6ae61a172928c831c3f80ace251dd3590f57637094e96288304afe7888ea8",
+      "size": 2923
+    },
+    {
+      "path": ".claude/skills/setup/references/vault-placement.md",
+      "sha256": "9dd128489950d5b245af9d47e2e9e597e9bf541008a3fae4e26446f4dda01ebe",
+      "size": 5223
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "ead8ec2de529188fe80ca1b821a02ddf64dbba45a607754141fa4cf64bb29364",
+      "size": 137
+    },
+    {
+      "path": "CLAUDE.md",
+      "sha256": "f42be5a1ad55e882762dc8ca879dd37c02b470f0e66027ae037d5745f427700f",
+      "size": 1987
+    },
+    {
+      "path": "README.md",
+      "sha256": "f41d5f0001a33635d2e5b12ce97ddafde86cdcd69cd2035590f25c25b94f6061",
+      "size": 2108
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "2cb907ff307be05b0d4443743841508ee5664bacb17f9dc6cbce89d05dbe8dd3",
+      "size": 1092
+    },
+    {
+      "path": "VERSION",
+      "sha256": "d8cd4dfc22fcf918b45fd7f03e9b74d179f5a54373a85ac987c1ffc4b69f2258",
+      "size": 10
+    },
+    {
+      "path": "curriculum/README.md",
+      "sha256": "95994a83b04bb5240cc4c8eb217f98eda37d092df5b70b2baa81267973c8f54e",
+      "size": 1326
+    },
+    {
+      "path": "curriculum/m00-start-here.md",
+      "sha256": "19ba2aa7943ef8764bfcc51aeb036ee52e90ed505b9e67af25430cad3b85728e",
+      "size": 3252
+    },
+    {
+      "path": "curriculum/m01-get-claude.md",
+      "sha256": "2b8473a1825369b89db79856204ad8e3f5817d51b542b2450456f88eabe21419",
+      "size": 4746
+    },
+    {
+      "path": "curriculum/m02-your-vault.md",
+      "sha256": "f63fa34c0dd50421cad99610c025f7cedd32c82e79be21715cc67f689105f86a",
+      "size": 3214
+    },
+    {
+      "path": "curriculum/m03-first-win.md",
+      "sha256": "df1086d64b1a3e58016fef1e4d99670ac0574138f2d6deb9094160bf05394e77",
+      "size": 4727
+    },
+    {
+      "path": "curriculum/m04-connect-tools.md",
+      "sha256": "e22eec5eb6f19fd265b2a4d0ceebf82a39069e6592aaf4786eb2d74ea3cb4058",
+      "size": 3593
+    },
+    {
+      "path": "curriculum/m05-personalize-claude-md.md",
+      "sha256": "6e8abedbcf1f3a51c47d2c41a98e4106b4577dc3067f8ef4e58191aeeb6c806b",
+      "size": 3565
+    },
+    {
+      "path": "curriculum/m06-organize-with-para.md",
+      "sha256": "95091db6b0121745511d0d85b03e7c8731b4427ce0c78a58d79e133fe5e1a895",
+      "size": 2572
+    },
+    {
+      "path": "curriculum/m07-github-backup.md",
+      "sha256": "c2451731707f199c5975fd608f829c4d75b78a4cebce3392effe7e51e26e284d",
+      "size": 4629
+    },
+    {
+      "path": "curriculum/m08-real-workflows.md",
+      "sha256": "e506c52e5898aa317335892c090a9b7526d9075b9937edd2ce184b81eaa5a04e",
+      "size": 2955
+    },
+    {
+      "path": "curriculum/m09-routines.md",
+      "sha256": "207e88cc9e06b59624dafec2a16f102d49a34e942b715310a7277a30f70999f9",
+      "size": 3415
+    },
+    {
+      "path": "curriculum/m10-skills-advanced-tools.md",
+      "sha256": "022d0fe529c4f4cd615b56195f0da3b1425444d7b72bb0d340e570043c4609c8",
+      "size": 3202
+    },
+    {
+      "path": "curriculum/m11-mobile-sync.md",
+      "sha256": "f8f88bbb1b53c7e1490b91ecf3a24b624c73c7946da4fb142703c8dc3532d36b",
+      "size": 5184
+    },
+    {
+      "path": "curriculum/receipts.md",
+      "sha256": "4a209645a023f905e258373b219c7ee6763310713544a16131085fe3cda7f70d",
+      "size": 4283
+    },
+    {
+      "path": "curriculum/troubleshooting.md",
+      "sha256": "80b2e1644b83ecbb5c5d9e1667b765aa06c00bef9bdf39ca465d6b864929bb59",
+      "size": 7504
+    },
+    {
+      "path": "templates/00_Inbox/README.md",
+      "sha256": "1e2fcc3ac0a6917c325c8cc251d290925a4ccc14296ea0296a2bf5ccc33a580b",
+      "size": 580
+    },
+    {
+      "path": "templates/01_Projects/README.md",
+      "sha256": "84c25d6dfa259c7730e7bcef147fcfb7fc977a0f8175766b79dc78dc98d6e6aa",
+      "size": 620
+    },
+    {
+      "path": "templates/01_Projects/_sample_project_rescue/SAMPLE_README.md",
+      "sha256": "7fe40665f6c77a16d93d73a80ef2cffc867825c4af5784d08e6408764b47507b",
+      "size": 1089
+    },
+    {
+      "path": "templates/01_Projects/_sample_project_rescue/budget draft.md",
+      "sha256": "32532e3c3164dda7cd00b33b5343ee73d1b2e54a6816b577b10b50b58d580259",
+      "size": 602
+    },
+    {
+      "path": "templates/01_Projects/_sample_project_rescue/flyer text COPY.txt",
+      "sha256": "0a51817623049078eab432111bc654a69b2354c90d0d699ad85a4f2af9df8ccc",
+      "size": 399
+    },
+    {
+      "path": "templates/01_Projects/_sample_project_rescue/ideas.md",
+      "sha256": "f03076348d082abb9032103c7cdd788a2a80c1042e910b066d201f370dbd7fcc",
+      "size": 589
+    },
+    {
+      "path": "templates/01_Projects/_sample_project_rescue/meeting notes jan.txt",
+      "sha256": "d0849e5c187a90f17bb847f4d69e2e663e75c7d608e8b1838d16bcbe0b810ef0",
+      "size": 584
+    },
+    {
+      "path": "templates/01_Projects/_sample_project_rescue/notes_v2_FINAL.txt",
+      "sha256": "d06a632baf04904854bc2d000955cadfc8be0f9c6966f7364174e01d330a32b0",
+      "size": 691
+    },
+    {
+      "path": "templates/01_Projects/_sample_project_rescue/old/todo.txt",
+      "sha256": "c17edfdfaec83cfe2d0aad411bd0e6b2edfb14361a63c4aa225feefcd309d260",
+      "size": 343
+    },
+    {
+      "path": "templates/02_Areas/README.md",
+      "sha256": "e48d343f99b0ff6d72dc98897a917ae212d1b2b0799860b2545627f33d140397",
+      "size": 560
+    },
+    {
+      "path": "templates/03_Resources/About_Me.md",
+      "sha256": "d8d00bb915b35c1de2889352efd18b8d36afbf74a9a325d21624d0fba2fdcbe5",
+      "size": 490
+    },
+    {
+      "path": "templates/03_Resources/PARA_Guide.md",
+      "sha256": "70f8a016a17fcede106bbe978a54037278dcebd5fdbcc744fe34da4c9a6e485d",
+      "size": 608
+    },
+    {
+      "path": "templates/03_Resources/README.md",
+      "sha256": "7bd432512690549a67ba249dc10a23686db10609c62f3239f21c84dce2136806",
+      "size": 673
+    },
+    {
+      "path": "templates/03_Resources/ai_harness_setup/Setup_Ledger.md",
+      "sha256": "210fb62b1ac46b997136717934a27d3f058782efd52db7ad33aa724ae9633e66",
+      "size": 1442
+    },
+    {
+      "path": "templates/03_Resources/ai_harness_setup/Setup_Receipt.md",
+      "sha256": "70b78699b9a55708dd6bea21170bcd9378e3a5dca51786a716767c8cfc3acfe2",
+      "size": 1267
+    },
+    {
+      "path": "templates/03_Resources/ai_harness_setup/preflight-list.md",
+      "sha256": "55ae803742facdcae40ca1b38342d184dc885c3748e74fc3fb192bffdc2bceaa",
+      "size": 2049
+    },
+    {
+      "path": "templates/04_Archives/README.md",
+      "sha256": "86a7e9ae42795ba1221a7c712a56d346ee30cb1d8ebae2c81e17f2c5e41b1fa8",
+      "size": 640
+    },
+    {
+      "path": "templates/CLAUDE.md",
+      "sha256": "bea1ab7021b66bc61070a5b6c4ccf695f3c973cde52129cc60545aca7dc7e5ee",
+      "size": 669
+    },
+    {
+      "path": "templates/VAULT_VERSION",
+      "sha256": "d8cd4dfc22fcf918b45fd7f03e9b74d179f5a54373a85ac987c1ffc4b69f2258",
+      "size": 10
+    }
+  ],
+  "installer_version": "2.0.0-dev",
+  "zip_file": "claude-code-onboarding-2.0.0-dev.zip",
+  "zip_sha256": "5bc4671276d350e6184da18e78bf419f0f05011a2eb4f26220beead68744b2a7"
+}
