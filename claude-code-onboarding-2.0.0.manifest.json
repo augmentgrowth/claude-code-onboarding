@@ -51,9 +51,14 @@
       "size": 1987
     },
     {
+      "path": "LICENSE.md",
+      "sha256": "3de8381bf0572a9f01dcd4165b2c13c5c9c979775efff79b03fd314552a6ca46",
+      "size": 6324
+    },
+    {
       "path": "README.md",
-      "sha256": "f41d5f0001a33635d2e5b12ce97ddafde86cdcd69cd2035590f25c25b94f6061",
-      "size": 2108
+      "sha256": "ec483b76fc21e8538c8302f686b4f0f4685a9d87d370ed8ebf4fa64d16abd97e",
+      "size": 2722
     },
     {
       "path": "START_HERE.md",
@@ -62,8 +67,8 @@
     },
     {
       "path": "VERSION",
-      "sha256": "d8cd4dfc22fcf918b45fd7f03e9b74d179f5a54373a85ac987c1ffc4b69f2258",
-      "size": 10
+      "sha256": "c28fcca53637bc88e124af1725df13cb98c69dedefd62fb3cdbe1cdb6b760624",
+      "size": 6
     },
     {
       "path": "curriculum/README.md",
@@ -207,8 +212,8 @@
     },
     {
       "path": "templates/03_Resources/ai_harness_setup/Setup_Ledger.md",
-      "sha256": "210fb62b1ac46b997136717934a27d3f058782efd52db7ad33aa724ae9633e66",
-      "size": 1442
+      "sha256": "2601c6084b83ece573e2a9608fb266a759a59f7b6627a66539f8f61e0cf68d80",
+      "size": 1394
     },
     {
       "path": "templates/03_Resources/ai_harness_setup/Setup_Receipt.md",
@@ -232,11 +237,11 @@
     },
     {
       "path": "templates/VAULT_VERSION",
-      "sha256": "d8cd4dfc22fcf918b45fd7f03e9b74d179f5a54373a85ac987c1ffc4b69f2258",
-      "size": 10
+      "sha256": "c28fcca53637bc88e124af1725df13cb98c69dedefd62fb3cdbe1cdb6b760624",
+      "size": 6
     }
   ],
-  "installer_version": "2.0.0-dev",
-  "zip_file": "claude-code-onboarding-2.0.0-dev.zip",
-  "zip_sha256": "5bc4671276d350e6184da18e78bf419f0f05011a2eb4f26220beead68744b2a7"
+  "installer_version": "2.0.0",
+  "zip_file": "claude-code-onboarding-2.0.0.zip",
+  "zip_sha256": "79128a4e225c22dfd32db77cdf485ea003e718e1398da74aae89487bab562921"
 }
