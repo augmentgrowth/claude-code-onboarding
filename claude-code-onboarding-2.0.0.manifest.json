@@ -122,8 +122,8 @@
     },
     {
       "path": "curriculum/m09-routines.md",
-      "sha256": "207e88cc9e06b59624dafec2a16f102d49a34e942b715310a7277a30f70999f9",
-      "size": 3415
+      "sha256": "9f03957f0cdd9c4edca97c2777ddef3f2da58066d7f335ac6d74bfe3d6569490",
+      "size": 5088
     },
     {
       "path": "curriculum/m10-skills-advanced-tools.md",
@@ -243,5 +243,5 @@
   ],
   "installer_version": "2.0.0",
   "zip_file": "claude-code-onboarding-2.0.0.zip",
-  "zip_sha256": "9aba5e190ddc76e10d159ca72d859710fc78ea743d28f1a8d1b79dc831aafba8"
+  "zip_sha256": "2240ebe4e07141be6c90a339999ad612e857f69171644dd7afe533c8c5b6de90"
 }
