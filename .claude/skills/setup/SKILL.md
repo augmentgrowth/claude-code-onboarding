@@ -68,8 +68,9 @@ Do these checks silently, then mention only what matters:
 Before any building, make sure the person understands how approvals work —
 follow `references/session-zero.md`. Short version: they own every yes;
 routine pop-ups deserve a quick yes; your in-chat questions are the real
-decisions; after a few approvals, offer Shift+Tab auto-accept; check the
-model is the default at default effort. In resume mode, compress this to two
+decisions; recommend Shift+Tab accept-edits up front so pop-ups don't pile
+up; have them glance at the model label in the bottom-right of the input box
+(the default, usually Sonnet, is right). In resume mode, compress this to two
 or three lines of reminder rather than the full walk.
 
 ### 3a. Fresh mode: place and build the vault
@@ -114,8 +115,9 @@ this exact four-part shape and nothing load-bearing before or after it:
 
 1. A one-line done marker ("✅ Your vault is built and verified.").
 2. The absolute path that matters, spelled out in full.
-3. Plain reopen steps ("Next time: open Claude, choose this setup folder
-   again from the folder picker.").
+3. Plain reopen steps, GUI only, never a terminal command ("Next time: open
+   Claude, go to the Code tab, click **Select folder** in the message box at
+   the bottom, choose this setup folder, and start the session.").
 4. The exact thing to type ("then type: /setup").
 
 ## If the user described setup intent instead of typing /setup

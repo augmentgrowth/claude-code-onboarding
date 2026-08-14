@@ -32,12 +32,19 @@ command is the only trigger.
    - `.setup-state.json` and `.DS_Store` are expected local files, covered by
      `.gitignore` — they never count as changes and never block anything.
    - Any *other* modification or untracked surprise means the folder was
-     edited since it was cloned. Stop before any network action and explain:
-     "some files in this setup folder were changed locally. Updating would
-     collide with those changes, so I've stopped. The simplest fix is a fresh
-     copy: delete this folder and run the original setup link again — your
-     vault is separate and completely unaffected." Do not stash, discard, or
-     overwrite anything on the user's behalf.
+     edited since it was cloned. Stop before any network action and explain,
+     with the full recovery path spelled out — never a bare "delete and start
+     over": "some files in this setup folder were changed locally, so updating
+     in place isn't safe and I've stopped. Your vault is separate and
+     completely unaffected. The fix is a fresh copy of the setup kit: keep
+     this window open, start a new Code session, and paste the setup message
+     again (ask your trainer for it if it's gone — the kit's source is
+     github.com/augmentgrowth/claude-code-onboarding). Once the fresh copy is
+     open and working — Select folder in the message box at the bottom, choose
+     the new folder, type /setup — you can delete this old folder." Do not
+     stash, discard, or overwrite anything on the user's behalf, and never
+     tell them to delete this folder before the replacement is open and
+     working.
 2. **Note where we are.** Record the current tag
    (`git describe --tags --always`) so the summary can compare against it.
 3. **Go get the news (the approved network step).** Run

@@ -59,7 +59,8 @@ keep. When M3's curriculum file says to graduate, hand off exactly:
 > Your vault lives at: [absolute vault path]
 >
 > From now on, open Claude **at your vault** for everyday work: open Claude,
-> choose that folder in the folder picker.
+> go to the Code tab, click **Select folder** in the message box at the
+> bottom, and choose your vault folder.
 >
 > To continue setup modules later, open **this setup folder** instead and
 > type: /setup

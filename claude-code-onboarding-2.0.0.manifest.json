@@ -7,13 +7,13 @@
     },
     {
       "path": ".claude/skills/refresh-materials/SKILL.md",
-      "sha256": "db16384354ff03adcb66569dac0f8cb7051525114268ce4ce3ba4bb334052d0b",
-      "size": 3913
+      "sha256": "f7249227770260ca42db5c6f8e8de137eb6d4fba9db983463cd67fb85117531b",
+      "size": 4411
     },
     {
       "path": ".claude/skills/setup/SKILL.md",
-      "sha256": "35bdd86544b14e2f6e7813e392b37ebdd18fc2b148e229bdbcc0894a9061cffd",
-      "size": 6407
+      "sha256": "0b0d5d0b8d6d2490a65d3ca81ca077f61fe36e27aaebbbe18af254b6457043e3",
+      "size": 6598
     },
     {
       "path": ".claude/skills/setup/references/build-and-verify.md",
@@ -22,8 +22,8 @@
     },
     {
       "path": ".claude/skills/setup/references/modules-runner.md",
-      "sha256": "6152d456ba83d73abb1dfd47997fdf7167ea1f6d8ab12c508974718cec5bb38e",
-      "size": 3504
+      "sha256": "ba64ad1058997e900920c5c8b22f79b4a207af5ec038caf95a332025e3720aa8",
+      "size": 3573
     },
     {
       "path": ".claude/skills/setup/references/safety-rules.md",
@@ -32,8 +32,8 @@
     },
     {
       "path": ".claude/skills/setup/references/session-zero.md",
-      "sha256": "f8f6ae61a172928c831c3f80ace251dd3590f57637094e96288304afe7888ea8",
-      "size": 2923
+      "sha256": "83eb59b6453a0e8596202753f899f7a479e528662d7d690a9e282aa6c086c461",
+      "size": 3441
     },
     {
       "path": ".claude/skills/setup/references/vault-placement.md",
@@ -57,13 +57,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "ec483b76fc21e8538c8302f686b4f0f4685a9d87d370ed8ebf4fa64d16abd97e",
-      "size": 2722
+      "sha256": "163313b377ff2d289d3939d191aa3e0125ad22c3157d347128a233a3a115ed32",
+      "size": 3206
     },
     {
       "path": "START_HERE.md",
-      "sha256": "2cb907ff307be05b0d4443743841508ee5664bacb17f9dc6cbce89d05dbe8dd3",
-      "size": 1092
+      "sha256": "24035d067eda91e70e60b8bd8a6bc1ff1e066980d10dbdadb23d8ab5fc13f76c",
+      "size": 1325
     },
     {
       "path": "VERSION",
@@ -77,18 +77,18 @@
     },
     {
       "path": "curriculum/m00-start-here.md",
-      "sha256": "19ba2aa7943ef8764bfcc51aeb036ee52e90ed505b9e67af25430cad3b85728e",
-      "size": 3252
+      "sha256": "0072d3e8476ff229837bd5900450bdef099184cfaac802b87083822ea6de52eb",
+      "size": 3347
     },
     {
       "path": "curriculum/m01-get-claude.md",
-      "sha256": "2b8473a1825369b89db79856204ad8e3f5817d51b542b2450456f88eabe21419",
-      "size": 4746
+      "sha256": "cad5902669916b59583f9e0b24c7b3efd78716f1dc42bc912cdb0ffe2424fd75",
+      "size": 4167
     },
     {
       "path": "curriculum/m02-your-vault.md",
-      "sha256": "f63fa34c0dd50421cad99610c025f7cedd32c82e79be21715cc67f689105f86a",
-      "size": 3214
+      "sha256": "08fff2ccde3ec25d7227aa54c8a800e56721098200116c6f33298304b2eaa9bb",
+      "size": 3328
     },
     {
       "path": "curriculum/m03-first-win.md",
@@ -212,8 +212,8 @@
     },
     {
       "path": "templates/03_Resources/ai_harness_setup/Setup_Ledger.md",
-      "sha256": "2601c6084b83ece573e2a9608fb266a759a59f7b6627a66539f8f61e0cf68d80",
-      "size": 1394
+      "sha256": "f1ddfa0540afab8a28f4dbf4aca57ed35263c233f0da2521e00aefbe97599e3c",
+      "size": 1399
     },
     {
       "path": "templates/03_Resources/ai_harness_setup/Setup_Receipt.md",
@@ -243,5 +243,5 @@
   ],
   "installer_version": "2.0.0",
   "zip_file": "claude-code-onboarding-2.0.0.zip",
-  "zip_sha256": "79128a4e225c22dfd32db77cdf485ea003e718e1398da74aae89487bab562921"
+  "zip_sha256": "9aba5e190ddc76e10d159ca72d859710fc78ea743d28f1a8d1b79dc831aafba8"
 }

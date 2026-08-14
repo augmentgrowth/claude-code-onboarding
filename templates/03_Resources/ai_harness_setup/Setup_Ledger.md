@@ -9,7 +9,7 @@ Note: "not yet available" just means not started yet. Every module is open to yo
 | module | status | date | installer version | verification ID | last result | cards surfaced | notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | M0 | in progress | | 2.0.0 | vault-scope | | | starter pack installed |
-| M1 | not yet available | | 2.0.0 | cli-version | | | |
+| M1 | not yet available | | 2.0.0 | typeable-session | | | |
 | M2 | not yet available | | 2.0.0 | m2-pack-scaffold | | | |
 | M3 | not yet available | | 2.0.0 | m3-manifest | | | |
 | M4 | not yet available | | 2.0.0 | m4-workflow-artifact | | | |

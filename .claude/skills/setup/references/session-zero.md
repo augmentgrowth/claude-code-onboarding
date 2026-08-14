@@ -26,26 +26,36 @@ Teach the difference once, early:
   this be called, keep or skip. These are actual decisions. They should read
   them and answer in their own words. Nothing auto-answers these, ever.
 
-### 3. Offer auto-accept — after a few real approvals, not before
+### 3. Recommend accept-edits mode — right now, before the first pop-up
 
-Once the user has answered three or four routine pop-ups by hand, offer:
+Immediately after teaching the two kinds of asks, recommend turning on
+auto-accept for the routine ones so setup isn't a wall of pop-ups:
 
-> You've seen what these routine pop-ups look like now. If you'd like, press
-> Shift+Tab once — that tells the app to say yes to routine steps for you, so
-> we stop getting interrupted. My actual questions to you in this chat still
-> always wait for your answer. Press Shift+Tab again any time to turn it off.
+> One setting will make this much smoother: press Shift+Tab once now. That
+> tells the app to say yes to the routine steps for you (reading files,
+> making the edits we've already agreed on), so we aren't interrupted over
+> and over. My actual questions to you in this chat still always wait for
+> your answer, and big actions — deleting things, installing things,
+> anything that leaves this computer — still ask every time. Press Shift+Tab
+> again any time to turn it off.
 
-Never push it, never offer it before they have seen real examples, and say
-clearly that big actions (deleting, installing, anything leaving the machine)
-still ask every time.
+If they don't do it, fine — never push twice. They can turn it on later when
+the pop-ups get old.
 
-### 4. Model and effort check
+### 4. Model check
 
-Ask the user to type `/model` and read out what it says. The default model at
-default effort is right for setup — if something else is selected, help them
-put it back to the default in plain words. Don't turn this into a lesson on
-models; one sentence of why is plenty: "the standard setting is the right
-tool for this job."
+Don't ask the user to type anything for this. Tell them where to look:
+
+> One quick look before we dive in: in the bottom-right corner of the box
+> where you type, right next to the send button, there's a small dropdown
+> showing which model is selected. What does yours say?
+
+The default model at default effort — usually Sonnet — is the right tool for
+setup: if it says something else, help them switch it back using that same
+control, in plain words. Don't turn this into a lesson on models; one
+sentence of why is plenty: "the standard setting is the right tool for this
+job." If they can't find the label, don't stall on it — the default is the
+overwhelmingly likely case; move on.
 
 ### 5. Three lines before every pop-up they'll see
 

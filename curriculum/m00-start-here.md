@@ -8,7 +8,7 @@ Ordinary AI chat keeps you in the middle of every step: ask, copy, paste, move, 
 
 Ledger row: M0. Verification ID: `vault-scope`. The ledger ships with this row already `in progress`; this module finishes it.
 
-1. **Explain the three Claude surfaces** in five lines or fewer, in plain words: Chat is for conversation. Cowork is guided work across files and services. Code (where we are) works inside a folder the user opened. The lasting idea is *where Claude is working and what it can see*, not the product names.
+1. **Confirm where we are**, in two lines: "We're in Claude's Code tab, working inside the folder you selected. Claude can only see and work with folders you deliberately open or approve — that's the whole security model in one sentence." Skip any tour of Claude's other tabs or products; the lasting idea is *where Claude is working and what it can see*, and this session already demonstrates it.
 2. **Restate the two-folders picture.** This folder is the setup kit; the vault is their own notes folder, built outside it. The kit is safe to delete later, and keeping it makes coming back easier.
 3. **Tour the vault**, one line per item, reading it through the folder access already granted:
    - The five folders: `00_Inbox` (unsorted capture), `01_Projects` (active work with a finish line), `02_Areas` (ongoing responsibilities), `03_Resources` (reusable reference), `04_Archives` (finished or inactive).

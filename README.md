@@ -1,12 +1,13 @@
-# Second-brain starter
+# Claude Code onboarding
 
 A guided installer for a plain-text personal knowledge vault, built for and driven by [Claude Code](https://code.claude.com). You clone this repository, open it in Claude, and type one command; the setup runs as a conversation, one approved step at a time, and builds a clean [PARA](https://fortelabs.com/blog/para/)-structured vault **outside** this folder.
 
 ## How it works
 
-1. **Clone this repository** at its latest release tag (the entry prompt on the guide site does this for you).
-2. **Open the cloned folder** in Claude Code or the Claude desktop app.
-3. **Type `/setup`.** The setup skill proposes each step — where the vault should live, what gets copied, what to verify — and waits for your approval before doing anything.
+1. **Start with the guided setup message** at <https://www.augmentgrowth.ai/resources/claude-code-setup/> — pasted into a Claude Code session, it clones this repository for you at its latest official release tag.
+2. **When the clone finishes, start a new session** in the Claude Desktop app's **Code** tab.
+3. **Click "Select folder"** in the message box at the bottom, open **Documents**, and choose **claude-code-onboarding**.
+4. **Type `/setup`.** The setup skill proposes each step — where the vault should live, what gets copied, what to verify — and waits for your approval before doing anything.
 
 The vault it builds contains only your own content: five PARA folders, a `CLAUDE.md` with house rules, a short filing guide, and a setup ledger that lets any later session resume where you stopped. No installer machinery, no skills, no git history ever lands in the vault.
 
@@ -23,7 +24,7 @@ The vault it builds contains only your own content: five PARA folders, a `CLAUDE
 
 This repository is generated and published from a single source of truth with a fail-closed build pipeline (deterministic builds, content policy checks, secret scanning). Each release is a **tagged version**; the entry prompt clones the latest tag, never bare `main`. The `VERSION` file in this folder names the release you have. To update later, type `/refresh-materials` — updating is always something you invoke, never something that happens in the background.
 
-This folder is deletable after setup. Keeping it just makes resume and refresh one step shorter.
+Keep this folder while you are working through (or may come back to) the learning modules — it holds the curriculum, `/setup` resume, and `/refresh-materials`. Your vault is always safe if you delete it, but continuing the modules later would mean cloning a fresh copy. Delete it only when you're done with the modules for good.
 
 Full guide, troubleshooting, and human documentation: <https://www.augmentgrowth.ai/resources/claude-code-setup/>
 

@@ -11,13 +11,13 @@ That starts a guided conversation. Claude proposes each step in plain words — 
 - **This folder** is the installer — the instructions and materials for setup. Think of it like the box a piece of furniture arrives in.
 - **Your vault** is the notes folder the setup builds, somewhere *outside* this one. That's the furniture. It's yours, it's plain files, and nothing from this box ends up inside it except your starting folders and notes.
 
-When setup is done you can delete this folder if you like. Keeping it is also fine — it makes coming back easier.
+Keep this folder while you're still doing (or might come back to) the learning modules — it's how you resume. Your vault is always safe if you delete it, but you'd need a fresh copy of this kit to continue the modules. Delete it only when you're done with them for good.
 
 ## Coming back later
 
 Stopped partway, or want to continue another day?
 
-1. Open this same folder in Claude again.
+1. Open Claude, go to the Code tab, click **Select folder** in the message box at the bottom, and choose this folder.
 2. Type `/setup`.
 
 It reads your progress record and picks up exactly where you left off.
