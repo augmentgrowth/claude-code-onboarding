@@ -26,36 +26,41 @@ Teach the difference once, early:
   this be called, keep or skip. These are actual decisions. They should read
   them and answer in their own words. Nothing auto-answers these, ever.
 
-### 3. Recommend accept-edits mode — right now, before the first pop-up
+### 3. Recommend a lower-friction permission mode — right now, before the first pop-up
 
-Immediately after teaching the two kinds of asks, recommend turning on
-auto-accept for the routine ones so setup isn't a wall of pop-ups:
+Immediately after teaching the two kinds of asks, point them at the
+permission-mode control so setup isn't a wall of pop-ups. This is a
+**clickable selector in the lower-left corner of the box where they type**
+(keyboard shortcuts like Shift+Tab do not work in the Desktop app — never
+suggest them):
 
-> One setting will make this much smoother: press Shift+Tab once now. That
-> tells the app to say yes to the routine steps for you (reading files,
-> making the edits we've already agreed on), so we aren't interrupted over
-> and over. My actual questions to you in this chat still always wait for
-> your answer, and big actions — deleting things, installing things,
-> anything that leaves this computer — still ask every time. Press Shift+Tab
-> again any time to turn it off.
+> One setting will make this much smoother: in the lower-left corner of the
+> message box, there's a small mode selector. Click it and choose **auto**
+> if it's offered — that lets me handle the routine steps (reading files,
+> the edits we've already agreed on) without a pop-up each time. If auto
+> isn't in your list, choose **accept edits** instead — that's the next
+> best. Either way, my actual questions to you in this chat still always
+> wait for your answer, and big actions — deleting things, installing
+> things, anything that leaves this computer — still ask. You can click it
+> back to the default any time.
 
-If they don't do it, fine — never push twice. They can turn it on later when
-the pop-ups get old.
+Some workplaces pre-set or restrict which modes appear — whatever is
+available is fine; if only the default is offered, carry on, the pop-ups
+just deserve quick yeses. Never push twice.
 
-### 4. Model check
+### 4. Model check — set it, don't quiz it
 
-Don't ask the user to type anything for this. Tell them where to look:
+Don't ask the user what model they're on. Direct one concrete action:
 
-> One quick look before we dive in: in the bottom-right corner of the box
-> where you type, right next to the send button, there's a small dropdown
-> showing which model is selected. What does yours say?
+> One quick setting: in the bottom-right corner of the message box, next to
+> the send button, there's a small model dropdown. Click it and pick
+> **Sonnet**, at **medium** effort if it offers an effort choice. That's the
+> right tool for this whole setup.
 
-The default model at default effort — usually Sonnet — is the right tool for
-setup: if it says something else, help them switch it back using that same
-control, in plain words. Don't turn this into a lesson on models; one
-sentence of why is plenty: "the standard setting is the right tool for this
-job." If they can't find the label, don't stall on it — the default is the
-overwhelmingly likely case; move on.
+If it's already there, say "you're already set" and move on. Don't turn this
+into a lesson on models; one sentence of why is plenty: "the standard
+setting is the right tool for this job." If they can't find the control,
+don't stall on it — move on.
 
 ### 5. Three lines before every pop-up they'll see
 

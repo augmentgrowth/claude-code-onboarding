@@ -12,8 +12,8 @@
     },
     {
       "path": ".claude/skills/setup/SKILL.md",
-      "sha256": "0b0d5d0b8d6d2490a65d3ca81ca077f61fe36e27aaebbbe18af254b6457043e3",
-      "size": 6598
+      "sha256": "e231be032834ca705410ee79a8f476a01dd22db3dfeb0df3e13a8cc4e314ff5e",
+      "size": 6617
     },
     {
       "path": ".claude/skills/setup/references/build-and-verify.md",
@@ -32,8 +32,8 @@
     },
     {
       "path": ".claude/skills/setup/references/session-zero.md",
-      "sha256": "83eb59b6453a0e8596202753f899f7a479e528662d7d690a9e282aa6c086c461",
-      "size": 3441
+      "sha256": "dfb9635f7a1eed3522cddd0c2f4655c383ec1c88c4db74c8d4ebac33c1ef5dc8",
+      "size": 3770
     },
     {
       "path": ".claude/skills/setup/references/vault-placement.md",
@@ -82,8 +82,8 @@
     },
     {
       "path": "curriculum/m01-get-claude.md",
-      "sha256": "cad5902669916b59583f9e0b24c7b3efd78716f1dc42bc912cdb0ffe2424fd75",
-      "size": 4167
+      "sha256": "afa2456263f150f2cda54157e2a9348dab72bd5f48e1b15f4d77ae0c79c98a09",
+      "size": 4162
     },
     {
       "path": "curriculum/m02-your-vault.md",
@@ -127,8 +127,8 @@
     },
     {
       "path": "curriculum/m10-skills-advanced-tools.md",
-      "sha256": "022d0fe529c4f4cd615b56195f0da3b1425444d7b72bb0d340e570043c4609c8",
-      "size": 3202
+      "sha256": "ad4e9c79f350cc275057fdd71cf806a92061fc2131dcbd0a62b2cba898310979",
+      "size": 3278
     },
     {
       "path": "curriculum/m11-mobile-sync.md",
@@ -243,5 +243,5 @@
   ],
   "installer_version": "2.0.0",
   "zip_file": "claude-code-onboarding-2.0.0.zip",
-  "zip_sha256": "2240ebe4e07141be6c90a339999ad612e857f69171644dd7afe533c8c5b6de90"
+  "zip_sha256": "f2754520dbfd5ee6d7fc75ed916f7dab9faff799c1d141c33f20575374a2cf78"
 }

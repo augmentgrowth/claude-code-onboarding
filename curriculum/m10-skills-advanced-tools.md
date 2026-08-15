@@ -7,7 +7,7 @@ This module is guided exploration, not a final exam. Claude has power features â
 Ledger row: M10. Verification ID: `setup-ledger`. M10 comes before M9 in the canonical order.
 
 1. **Offer one power feature at a time**, from what the user actually wants, and for each one name the tradeoff in a line: what it can reach, what it costs, how to turn it off. Candidates:
-   - **Fewer approval prompts.** The gentle step is auto-accept for edits (Shift+Tab): routine edits stop asking, real decisions still do. Broader autonomy modes exist; they trade safety net for speed and are something to grow into after weeks of use, not today.
+   - **Fewer approval prompts.** The permission-mode selector in the lower-left of the message box controls this: auto mode (or accept-edits where auto isn't offered) stops the routine asking; real decisions in chat still wait. If setup already set this in session zero, just name where the control lives so they can adjust it themselves.
    - **Team or brand skills.** Some teams keep reusable skills and prompt packs in private GitHub repos. Requirements before downloading team material: `gh auth` works (verify with `gh-auth` â€” the expected account authenticated, no token printed), the account can reach the private repo, and the usable files end up inside the vault or project where Claude reads them. A repo cloned to the Desktop is only a folder, not an installed skill. Never put credentials in a skill file.
    - **A second connector.** Same rules as M4: one need, beginner-safe order, smallest test call, know the off switch.
    - **Memory.** Claude Code keeps automatic memory across sessions on top of CLAUDE.md; nothing to set up, worth knowing it exists.

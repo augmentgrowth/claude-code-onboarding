@@ -68,10 +68,10 @@ Do these checks silently, then mention only what matters:
 Before any building, make sure the person understands how approvals work —
 follow `references/session-zero.md`. Short version: they own every yes;
 routine pop-ups deserve a quick yes; your in-chat questions are the real
-decisions; recommend Shift+Tab accept-edits up front so pop-ups don't pile
-up; have them glance at the model label in the bottom-right of the input box
-(the default, usually Sonnet, is right). In resume mode, compress this to two
-or three lines of reminder rather than the full walk.
+decisions; recommend the permission-mode selector (lower-left of the input
+box) up front — auto if offered, accept-edits as fallback; have them set the
+model dropdown (bottom-right) to Sonnet at medium effort. In resume mode,
+compress this to two or three lines of reminder rather than the full walk.
 
 ### 3a. Fresh mode: place and build the vault
 
