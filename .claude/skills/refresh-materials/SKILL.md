@@ -66,10 +66,11 @@ command is the only trigger.
    "the starter notes files changed slightly." Two to five lines is right.
 8. **Hand off.** Close with: "✅ Materials updated to [new tag]. You're
    done for today unless you want more — stopping here is completely safe."
-   Then one more line, matched to their ledger state: if optional modules
-   remain, name the next one and say "type `/setup` whenever you want to
-   pick it up"; if everything is finished, say "nothing is left to do —
-   your vault is your everyday workspace now."
+   Then one more line: "You're in the same folder as before ([absolute path
+   to this folder]). Whenever you want to continue, type `/setup` — it picks
+   up exactly where you left off, or tells you everything is already
+   finished." (This skill never reads the vault, so it does not know their
+   module progress — `/setup` is the thing that does.)
 
 ## What this command never does
 

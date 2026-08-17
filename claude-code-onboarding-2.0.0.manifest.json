@@ -7,13 +7,13 @@
     },
     {
       "path": ".claude/skills/refresh-materials/SKILL.md",
-      "sha256": "9ac20079bd4379d76f5340cc87fc33983fa6cfff3eb0cc0a7e165f4c5e87cc1b",
-      "size": 4671
+      "sha256": "ee8b28ac94e0f74de3530ba9b8f95e4d9957dad1b085c85a054482d050c8071b",
+      "size": 4759
     },
     {
       "path": ".claude/skills/setup/SKILL.md",
-      "sha256": "b59b2a5fc65098f84ccfdbcf89f415d8ee0ed695072b1fa29fbbb273e0df649e",
-      "size": 8510
+      "sha256": "bd1ef9a5272cca954277cce8d0e08018ae27ccfc9ea422ec7b0ca3e860d6bb8e",
+      "size": 8694
     },
     {
       "path": ".claude/skills/setup/references/build-and-verify.md",
@@ -243,5 +243,5 @@
   ],
   "installer_version": "2.0.0",
   "zip_file": "claude-code-onboarding-2.0.0.zip",
-  "zip_sha256": "6bf6fb1e1db911e1dc15a2b9ceae7b46ff092c62153d38492506ba643c559247"
+  "zip_sha256": "608a79826e6e3705bd2efd92541eeb3c98aa287791d11943f3ba259c4b98a91f"
 }

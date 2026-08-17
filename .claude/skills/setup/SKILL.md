@@ -116,16 +116,18 @@ a module finishes and the user is leaving, the session is ending — close with
 this exact shape and nothing load-bearing before or after it.
 
 **First, the completion line. It is mandatory and it comes first.** The user
-must never have to guess whether they are finished. There are exactly two
-states, and every hand-off opens with one of them:
+must never have to guess whether they are finished. Every hand-off opens with
+**"✅ Done for today"** — the vault works and stopping is safe. Say so in
+the same breath: what is finished, and that nothing is broken or waiting.
+Then, when optional modules remain, the opener is followed by an
+**"Optional modules remain:"** line naming *which* ones are left and what
+each one gets them, in plain words. Never say "come back when you need more
+setup" or anything like it; that phrasing is what made a real user think he
+had left something undone. Name the work or declare it done.
 
-- **"✅ Done for today"** — the vault works and stopping is safe. Say so in
-  the same breath: what is finished, and that nothing is broken or waiting.
-- **"Optional modules remain"** — also safe to stop, but say *which* ones are
-  left and what each one gets them, by name, in plain words. Never say
-  "come back when you need more setup" or anything like it; that phrasing is
-  what made a real user think he had left something undone. Name the work or
-  declare it done.
+One exception: a session interrupted mid-module by a usage limit opens with
+**"⏸ Paused"** instead (see the usage-limit hand-off in modules-runner.md) —
+an interruption is never announced as completion.
 
 Once the vault is built and verified, the honest status is always some form
 of done: the vault works. Everything after M0 is optional learning. Say that
