@@ -107,3 +107,36 @@ What each option means in practice:
     record the vault in `.setup-state.json`.
 - **Other:** listen, restate the plan in one line, confirm, then apply the
   matching branch above.
+
+### When the rename or the move won't go through
+
+Renaming or moving a folder can fail. Two different things cause it, and the
+right answer is different for each. Read what the failure actually says
+before you speak. Never force the operation, never look for or stop programs
+that might be holding the folder, and never ask for an administrator
+password.
+
+**The folder is busy.** The failure mentions "resource busy", "in use by
+another program", or the rename simply refuses while something has the
+folder open. Say what is happening in plain words:
+
+> Something on your computer is holding that folder open right now, so it
+> can't be moved. Usually that's another Claude session, or an app like
+> Obsidian with the folder still loaded. Fully quit any other Claude windows
+> or sessions, close any app that's using that folder, then tell me to try
+> again.
+
+Wait for the user to say they've done it. Then retry the same approved move
+once. If it fails the same way again, offer the "Fresh, next door" option
+instead — a different name or spot works without touching that folder at all.
+
+**The folder is protected.** The failure is a permission or ownership one
+(`EPERM`, `EACCES`, "permission denied"), or the path sits somewhere the
+system guards. Stop here. Closing apps will not help, so do not suggest it.
+Say instead:
+
+> That folder is protected by your computer, so I can't move or rename it.
+> That's not something to work around. Let's put your vault somewhere else
+> instead.
+
+Then go back to the named-folder question in section 4 and pick a new spot.

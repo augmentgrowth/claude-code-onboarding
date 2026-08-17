@@ -4,6 +4,8 @@ A guided installer for a plain-text personal knowledge vault, built for and driv
 
 ## How it works
 
+The whole picture in two sentences: the entry message downloads this one folder — the setup kit — into Documents, and nothing in it runs until you type `/setup`. That command starts a conversation that builds your notes vault in a separate folder with your OK at each step; nothing here runs on its own, in the background, or after you close the app.
+
 1. **Start with the guided setup message** at <https://www.augmentgrowth.ai/resources/claude-code-setup/> — pasted into a Claude Code session, it clones this repository for you at its latest official release tag.
 2. **When the clone finishes, start a new session** in the Claude Desktop app's **Code** tab.
 3. **Click "Select folder"** in the message box at the bottom, open **Documents**, and choose **claude-code-onboarding**.

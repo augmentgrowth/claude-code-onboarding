@@ -69,8 +69,25 @@ verified identical."
 
 ## 5. The build hand-off
 
-Close the build with the exact four-part hand-off shape (see SKILL.md):
-done marker, the vault's absolute path, plain reopen steps, and the exact
-thing to type next. If the user is continuing right now, skip the reopen
-steps and instead offer the first module: "Ready for the first short module
-whenever you are — just say go."
+This is the most important stopping point in the whole kit. The vault is
+built — the user is **done**, and they must hear that plainly. Open with the
+completion line, then give the four-part hand-off (see SKILL.md §5):
+
+> ✅ Done for today — your vault is built, verified, and ready to use.
+> Everything else in this kit is optional learning modules; stopping here is
+> completely fine.
+>
+> Your vault lives at: [absolute vault path]
+>
+> Next time: open Claude, go to the Code tab, click **Select folder** in the
+> message box at the bottom, and choose this setup folder.
+>
+> Then type: /setup
+
+Never end this step with anything vague about coming back "when you need
+more setup." They don't need more setup. The vault works.
+
+If the user is continuing right now, keep the first line — they've earned
+it — then skip the reopen steps and offer the first module instead: "✅ Your
+vault is built and verified; you're done with the required part. Ready for
+the first short optional module whenever you are — just say go."

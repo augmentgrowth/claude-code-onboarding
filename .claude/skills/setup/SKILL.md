@@ -66,7 +66,9 @@ Do these checks silently, then mention only what matters:
 ### 2. Session-0 normalization
 
 Before any building, make sure the person understands how approvals work —
-follow `references/session-zero.md`. Short version: they own every yes;
+follow `references/session-zero.md`. Short version: open with two sentences on
+the shape of this (this folder is the kit, the vault is built outside it,
+nothing runs on its own); they own every yes;
 routine pop-ups deserve a quick yes; your in-chat questions are the real
 decisions; recommend the permission-mode selector (lower-left of the input
 box) up front — auto if offered, accept-edits as fallback; have them set the
@@ -111,7 +113,25 @@ graduation step, not a setup prerequisite.
 
 Every time the conversation reaches a stopping point — the vault is built,
 a module finishes and the user is leaving, the session is ending — close with
-this exact four-part shape and nothing load-bearing before or after it:
+this exact shape and nothing load-bearing before or after it.
+
+**First, the completion line. It is mandatory and it comes first.** The user
+must never have to guess whether they are finished. There are exactly two
+states, and every hand-off opens with one of them:
+
+- **"✅ Done for today"** — the vault works and stopping is safe. Say so in
+  the same breath: what is finished, and that nothing is broken or waiting.
+- **"Optional modules remain"** — also safe to stop, but say *which* ones are
+  left and what each one gets them, by name, in plain words. Never say
+  "come back when you need more setup" or anything like it; that phrasing is
+  what made a real user think he had left something undone. Name the work or
+  declare it done.
+
+Once the vault is built and verified, the honest status is always some form
+of done: the vault works. Everything after M0 is optional learning. Say that
+out loud rather than implying it.
+
+Then the four-part contract, unchanged:
 
 1. A one-line done marker ("✅ Your vault is built and verified.").
 2. The absolute path that matters, spelled out in full.
@@ -119,6 +139,26 @@ this exact four-part shape and nothing load-bearing before or after it:
    Claude, go to the Code tab, click **Select folder** in the message box at
    the bottom, choose this setup folder, and start the session.").
 4. The exact thing to type ("then type: /setup").
+
+**Mid-module, when the user says they're leaving.** The module they were in
+is unfinished, but the vault is not broken — say both:
+
+> ✅ Done for today — your vault is fine, and nothing is left half-broken.
+> We were partway through **[module name]**; I've recorded exactly where we
+> stopped, and it picks up from there next time. It's optional, like all the
+> modules after the build.
+>
+> Your vault lives at: [absolute vault path]
+>
+> Next time: open Claude, go to the Code tab, click **Select folder** in the
+> message box at the bottom, and choose this setup folder.
+>
+> Then type: /setup
+
+**A resume report that ends without running a module** (step 3b, the user
+reads the status and stops) closes the same way: state that the vault works,
+name the remaining optional modules and what each gets them, then the path,
+the GUI reopen steps, and `/setup`.
 
 ## If the user described setup intent instead of typing /setup
 

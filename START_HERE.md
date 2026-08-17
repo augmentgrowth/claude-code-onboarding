@@ -4,6 +4,8 @@ You just cloned the setup folder. One thing to do:
 
 **Type `/setup` in the chat box and press Enter.**
 
+The whole picture in two sentences: the message you pasted downloaded this one folder — the setup kit — and nothing in it has run yet. Typing `/setup` starts a conversation that builds your notes folder somewhere outside this one, with your OK at each step; nothing here runs on its own, in the background, or after you close the app.
+
 That starts a guided conversation. Claude proposes each step in plain words — where your notes folder should live, what goes in it — and nothing happens until you say yes. There are no commands to memorize and nothing here requires a technical background.
 
 ## Two folders, one job each

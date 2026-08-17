@@ -64,9 +64,12 @@ command is the only trigger.
    git output at the user. Group by what they'd care about: "the setup
    conversation got improvements," "two learning modules were updated,"
    "the starter notes files changed slightly." Two to five lines is right.
-8. **Hand off.** Close with: "✅ Materials updated to [new tag]. You're in
-   the same folder as before — type `/setup` to continue where you left
-   off."
+8. **Hand off.** Close with: "✅ Materials updated to [new tag]. You're
+   done for today unless you want more — stopping here is completely safe."
+   Then one more line, matched to their ledger state: if optional modules
+   remain, name the next one and say "type `/setup` whenever you want to
+   pick it up"; if everything is finished, say "nothing is left to do —
+   your vault is your everyday workspace now."
 
 ## What this command never does
 

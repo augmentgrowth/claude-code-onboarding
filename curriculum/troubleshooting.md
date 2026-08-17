@@ -31,6 +31,14 @@ If it happens anyway:
 
 If the vault syncs (OneDrive, iCloud, or Obsidian Sync) and a file appears with "conflicted copy" or a device name in its title: nothing is lost. Two versions of the same note arrived at once and the sync service kept both to be safe. Fix: open the copies, keep the wanted one (or merge the needed lines), and delete the rest — with the user shown each one first. Prevention is one habit: don't edit the same note on two devices at the same moment; different notes at the same time are always fine.
 
+## Card: Folder won't rename or delete
+
+Mid-setup, moving or renaming a folder aside can fail. Two different causes look similar and need opposite answers, so read what the failure actually says before saying anything. Never force the operation, never hunt for or stop programs, and never ask for an administrator password. (This is a whole folder refusing to move — not the antivirus case in the `file-locked` row below, which is a single fresh file that reads back wrong.)
+
+**Cause 1 — the folder is busy.** The failure mentions "resource busy" or "in use by another program", or the rename just refuses while something has the folder open. Something is holding it: usually another Claude session, sometimes an app like Obsidian with the vault still loaded, sometimes a Finder or Explorer window sitting inside it. Tell the user that in plain words, then ask them to fully quit other Claude windows and sessions, close the apps using that folder, and say when they're done. Retry the same approved move once. If it refuses again, stop retrying and offer to build the vault at a different name or spot instead — that path never touches the stuck folder.
+
+**Cause 2 — the folder is protected.** The failure is a permission or ownership one (`EPERM`, `EACCES`, "permission denied"), or the folder sits somewhere the system guards. Closing apps does nothing here, so do not offer that advice — it sends the user on a hunt that cannot succeed. Say that the folder is protected by their computer, that working around it is not the answer, and go choose a different location for the vault.
+
 ## When a step doesn't go as written: adapt the mechanism, never the gate
 
 Trainee machines differ: temp folders that refuse writes, path-length limits, networks that intercept downloads. The response is a contract, not general flexibility.

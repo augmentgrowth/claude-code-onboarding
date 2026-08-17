@@ -10,6 +10,9 @@ are, knows they are the one in charge, and nothing later surprises them.
 
 Say it plainly, in your own words, shaped like this:
 
+> Here's the shape: this folder is the setup kit. Your notes get their own
+> folder outside it, and nothing runs on its own.
+>
 > Quick ground rule before we start: I can't approve anything for myself —
 > you're the owner here. When I want to do something real, like create a
 > folder or copy files, your app shows you a small pop-up asking permission.

@@ -44,8 +44,42 @@ has cleared).
    plain-English reason in notes.
 
 One module at a time. At each module boundary, ask whether to continue or
-stop — and if they stop, close with the four-part hand-off (done marker,
-vault path, reopen steps, exact thing to type).
+stop — and if they stop, close with the hand-off from SKILL.md §5: the
+mandatory completion line first, then the four parts (done marker, vault
+path, reopen steps, exact thing to type).
+
+At a module boundary the vault already works, so the completion line always
+says stopping is safe. Which of the two states you use depends only on
+whether modules are left:
+
+- **Modules remain.** Name them and say what each one gets the user — never
+  a vague "come back when you need more setup."
+
+  > ✅ Done for today — [module name] is finished and your vault works.
+  > Stopping here is completely fine.
+  >
+  > Optional modules remain: **[next module]** ([what it gets them, one
+  > short phrase]), and [count] more after it. They're learning, not
+  > repairs — nothing is broken if you never do them.
+  >
+  > Your vault lives at: [absolute vault path]
+  >
+  > Next time: open Claude, go to the Code tab, click **Select folder** in
+  > the message box at the bottom, and choose this setup folder.
+  >
+  > Then type: /setup
+
+- **No modules remain** (M11 done, the end of the ladder). Say it is fully
+  finished, with no "next time" left implied:
+
+  > ✅ Done — you've finished every module. Nothing is left.
+  >
+  > Your vault lives at: [absolute vault path]
+  >
+  > For everyday work: open Claude, go to the Code tab, click **Select
+  > folder** in the message box at the bottom, and choose your vault folder.
+  >
+  > You can keep this setup folder or delete it; the vault stands on its own.
 
 ## The M3 graduation — the one reopen
 
@@ -54,7 +88,13 @@ worked on inside the vault. This is where "open Claude at your vault"
 happens, because from here on the vault's own CLAUDE.md context earns its
 keep. When M3's curriculum file says to graduate, hand off exactly:
 
-> ✅ Setup milestone: your vault is doing real work now.
+> ✅ Done for today — your vault is doing real work now, and stopping here
+> is a great place to stop.
+>
+> Optional modules remain: **M4 connect tools**, **M5 personalize**,
+> **M6 organize with PARA**, **M7 back up to GitHub**, **M8 real
+> workflows**, **M10 skills**, **M9 routines**, **M11 notes on your phone**.
+> Each one adds something; none of them is a repair.
 >
 > Your vault lives at: [absolute vault path]
 >
@@ -75,3 +115,18 @@ keep. When M3's curriculum file says to graduate, hand off exactly:
 - Usage-limit stops are normal pauses, not failures: record the current
   module's true state, then give the hand-off so the user can walk away
   calmly and come back with `/setup`.
+
+  A pause is **not** "done" — never open it with a completion line, and
+  never imply the module finished. Say the session paused, say stopping is
+  safe, and say how it resumes:
+
+  > ⏸ Paused — you've hit today's usage limit. That's a normal stop, not a
+  > problem, and nothing is broken. We were partway through **[module
+  > name]**; I've recorded where we stopped and it picks up from there.
+  >
+  > Your vault lives at: [absolute vault path]
+  >
+  > When your limit resets: open Claude, go to the Code tab, click **Select
+  > folder** in the message box at the bottom, and choose this setup folder.
+  >
+  > Then type: /setup

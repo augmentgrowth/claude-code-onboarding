@@ -7,23 +7,23 @@
     },
     {
       "path": ".claude/skills/refresh-materials/SKILL.md",
-      "sha256": "f7249227770260ca42db5c6f8e8de137eb6d4fba9db983463cd67fb85117531b",
-      "size": 4411
+      "sha256": "9ac20079bd4379d76f5340cc87fc33983fa6cfff3eb0cc0a7e165f4c5e87cc1b",
+      "size": 4671
     },
     {
       "path": ".claude/skills/setup/SKILL.md",
-      "sha256": "e231be032834ca705410ee79a8f476a01dd22db3dfeb0df3e13a8cc4e314ff5e",
-      "size": 6617
+      "sha256": "b59b2a5fc65098f84ccfdbcf89f415d8ee0ed695072b1fa29fbbb273e0df649e",
+      "size": 8510
     },
     {
       "path": ".claude/skills/setup/references/build-and-verify.md",
-      "sha256": "66ca8a89b2d218b1dce5babef88e3608d1ae052138bee8342db76cfeafda67a5",
-      "size": 3133
+      "sha256": "81c0868c3f9f7f9cd6c4e32834a601d6ce055cea40f99abdeba71c1b4894ccd4",
+      "size": 3834
     },
     {
       "path": ".claude/skills/setup/references/modules-runner.md",
-      "sha256": "ba64ad1058997e900920c5c8b22f79b4a207af5ec038caf95a332025e3720aa8",
-      "size": 3573
+      "sha256": "8a598fced5917345a8f1b02f6261c58031626006d977898c8ef7d104bd81d005",
+      "size": 5900
     },
     {
       "path": ".claude/skills/setup/references/safety-rules.md",
@@ -32,13 +32,13 @@
     },
     {
       "path": ".claude/skills/setup/references/session-zero.md",
-      "sha256": "dfb9635f7a1eed3522cddd0c2f4655c383ec1c88c4db74c8d4ebac33c1ef5dc8",
-      "size": 3770
+      "sha256": "c7475efd980fa24091f4ea65873adb294e80874728ad019e754423f056c334c7",
+      "size": 3897
     },
     {
       "path": ".claude/skills/setup/references/vault-placement.md",
-      "sha256": "9dd128489950d5b245af9d47e2e9e597e9bf541008a3fae4e26446f4dda01ebe",
-      "size": 5223
+      "sha256": "c5498dce4f29d93596d3c8905986c2655378bdf0bce7872a301fa19c8d5ac5ef",
+      "size": 6790
     },
     {
       "path": ".gitignore",
@@ -57,13 +57,13 @@
     },
     {
       "path": "README.md",
-      "sha256": "163313b377ff2d289d3939d191aa3e0125ad22c3157d347128a233a3a115ed32",
-      "size": 3206
+      "sha256": "81c764ace2381743b1eaa24b754342ead0d0619bb03598f65d3913f754a41b1f",
+      "size": 3562
     },
     {
       "path": "START_HERE.md",
-      "sha256": "24035d067eda91e70e60b8bd8a6bc1ff1e066980d10dbdadb23d8ab5fc13f76c",
-      "size": 1325
+      "sha256": "3deddc6e1b0668c9989919fa60c223b6dd4d2a193660ecaec15ecdcb20b628d1",
+      "size": 1665
     },
     {
       "path": "VERSION",
@@ -142,8 +142,8 @@
     },
     {
       "path": "curriculum/troubleshooting.md",
-      "sha256": "80b2e1644b83ecbb5c5d9e1667b765aa06c00bef9bdf39ca465d6b864929bb59",
-      "size": 7504
+      "sha256": "4fe06f2862efe7607f998ecca71b90f0284d108ebb0428c749f06371743d7ab7",
+      "size": 9100
     },
     {
       "path": "templates/00_Inbox/README.md",
@@ -243,5 +243,5 @@
   ],
   "installer_version": "2.0.0",
   "zip_file": "claude-code-onboarding-2.0.0.zip",
-  "zip_sha256": "f2754520dbfd5ee6d7fc75ed916f7dab9faff799c1d141c33f20575374a2cf78"
+  "zip_sha256": "6bf6fb1e1db911e1dc15a2b9ceae7b46ff092c62153d38492506ba643c559247"
 }
